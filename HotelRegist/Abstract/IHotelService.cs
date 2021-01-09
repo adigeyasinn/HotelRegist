@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelRegist.DataAccess.Abstract
+namespace HotelRegist.Abstract
 {
-    public interface IHotelDal:IEntityRepository<Hotel>
+    public interface IHotelService
     {
-
+        List<Hotel> GetAll();
+        void Add(Hotel hotel);
     }
 }

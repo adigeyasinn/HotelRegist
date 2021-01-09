@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelRegist.DataAccess.Abstract
 {
-    public interface IHotelDal:IEntityRepository<Hotel>
+    public interface ICategoryDal:IEntityRepository<Category>
     {
-
     }
 }

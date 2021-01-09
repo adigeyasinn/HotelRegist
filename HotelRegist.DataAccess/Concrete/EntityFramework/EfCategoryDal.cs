@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace HotelRegist.DataAccess.Concrete.EntityFramework
 {
-    public class EfHotelDal:EfRepositoryBase<Hotel,HotelRegistContext>,IHotelDal
+   public class EfCategoryDal:EfRepositoryBase<Category,HotelRegistContext>,ICategoryDal
     {
-
     }
 }
